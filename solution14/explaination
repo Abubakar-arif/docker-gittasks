@@ -1,0 +1,12 @@
+
+//docker volume create testthing
+it will creates a new volume "testthing" that containers can consume and store data in.
+
+//docker run --name=testthing alpine date
+it will outputs the date and time of alpine image
+
+//docker inspect testthing
+It will provide the whole data of testthing
+
+// From this command " docker inspect [OPTIONS] NAME|ID [NAME|ID...]" we can inspect exactly what we want.
+like in this case "docker inspect type=container testthing

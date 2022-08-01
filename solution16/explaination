@@ -1,0 +1,4 @@
+First of all I got the alpine image using "docker pull alpine" command
+then I save the image as a tar file
+then I created a directory in the current folder
+and in the folder I had extracted the image and checked layers

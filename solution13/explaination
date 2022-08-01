@@ -1,0 +1,12 @@
+First of all I created two containers
+docker run -d --name web1  -p 8001:80 eboraas/apache-php
+docker run -d --name web2  -p 8002:80 eboraas/apache-php
+
+then I created a network and connected both containers to that network,
+docker network connect myNetwork web1
+docker network connect myNetwork web2 
+
+
+    Then test the connection:
+
+docker exec -ti web1 ping web2

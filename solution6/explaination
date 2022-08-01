@@ -1,0 +1,5 @@
+The commands were not running because they were sharing the same name.
+    They must have unique name.
+
+Or we can also run both containers by deleting the first container after executing it 
+    and then run the 2nd command

@@ -1,0 +1,8 @@
+First of all I run the container using "sudo docker run -it alpine"
+then in the container I ran these commands below,
+
+//apk add tzdata
+    cp /usr/share/zoneinfo/Europe/Brussels /etc/localtime
+    echo "Europe/Brussels" >  /etc/timezone///
+
+After setting timezone . I used "Date" command to check the date and time of Brussels

@@ -1,0 +1,3 @@
+To check what events are run last 20 minutes.
+We will use "docker events --since 'minutes'
+In the inverted commas we can write for how many minutes. For 20 minutes we'll write '20m'

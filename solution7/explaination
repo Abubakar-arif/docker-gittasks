@@ -1,0 +1,2 @@
+CP command is used to copy a file to a running container.
+We can use the cp command to copy a file from your local host to a running container

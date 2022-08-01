@@ -1,0 +1,3 @@
+ docker ps --format '{{.Command .Image}}'
+ the syntax written is not correct. The corrext syntax is,
+ docker ps --format '{{.Command}} {{.Image}}'

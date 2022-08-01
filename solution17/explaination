@@ -1,0 +1,4 @@
+first of all I run the alpine container with the respected environment variable.
+then I saved it as a tar file
+then I make a tmp directory and extracted the files there.
+I got all the information of the container but not the meta info

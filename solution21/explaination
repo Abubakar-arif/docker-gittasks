@@ -1,0 +1,2 @@
+If we used only "FROM scratch" we cannot build an image
+we must have some more info to that like "ADD hello /" and then CMD that.

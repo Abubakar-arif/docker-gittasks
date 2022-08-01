@@ -1,0 +1,3 @@
+We can simply pull the image. If the pull is successful then the image is signed and else not.
+
+To check if the image is signed for content trust or not we can use "docker trust inspect [IMAGE_NAME]".

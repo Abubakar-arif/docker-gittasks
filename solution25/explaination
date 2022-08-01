@@ -1,0 +1,3 @@
+In my case the first one "$ docker create -v /tmp --name data alpine" works
+and the second one failed because they are having the same name. We can run either by removing
+one container or changing a unique name for the new container.

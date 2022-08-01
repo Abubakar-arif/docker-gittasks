@@ -1,0 +1,2 @@
+The cat command is used to show the content.
+First we will run the container and will use cat command to check in /etc/hosts/ file

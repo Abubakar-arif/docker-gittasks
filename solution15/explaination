@@ -1,0 +1,5 @@
+first of all I had run the containers
+then I verified whether container is stopped or not using "docker ps -a"
+From there i got the container id of the stopped container 
+and then I used this commant to get the exit status, 
+docker inspect containerID --format='{{.State.ExitCode}}'
